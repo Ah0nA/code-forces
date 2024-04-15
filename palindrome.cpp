@@ -4,7 +4,7 @@ using namespace std;
 
 bool isPalindrome(const string& s) {
 
-    for (char c : s) {
+    for (char c : s) { //iterate through every character in s to check if it is alphabetic (8)
         if (!isalpha(c)) {
             return false;
         }
